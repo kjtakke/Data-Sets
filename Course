@@ -1,0 +1,4 @@
+df1 = pd.read_csv(r'https://www.quandl.com/api/v3/datasets/EOD/MSFT.csv?api_key=HLPpJK9ng5A8MKxjawf1', header=0)
+df1 = df.iloc[::-1]
+
+df2 = pd.read_csv(r'http://bit.ly/2cLzoxH', header=0)
