@@ -2,3 +2,28 @@ df1 = pd.read_csv(r'https://www.quandl.com/api/v3/datasets/EOD/MSFT.csv?api_key=
 df1 = df.iloc[::-1]
 
 df2 = pd.read_csv(r'http://bit.ly/2cLzoxH', header=0)
+
+
+#Practice
+#https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+
+df3 = pd.read_csv(r'https://www.quandl.com/api/v3/datasets/UMICH/SOC43.csv?api_key=HLPpJK9ng5A8MKxjawf1', header=0)
+
+# Car Speeding and Warning Signs
+df4 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/boot/amis.csv', header=0)
+
+# Arrests for Marijuana Possession
+df5 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/carData/Arrests.csv', header=0)
+
+#	Data from the General Social Survey (GSS) from the National Opinion Research Center of the University of Chicago.
+df6 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/carData/Arrests.csv', header=0)
+
+# Minneapolis Police Department 2017 Stop Data
+df7 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/carData/Arrests.csv', header=0)
+
+# Brain and Body Weights for 28 Species
+df8 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/MASS/Animals.csv', header=0)
+
+# State Anxiety data from the PMC lab over multiple occasions.
+df9 = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/psych/sai.csv', header=0)
