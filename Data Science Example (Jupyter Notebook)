@@ -20,7 +20,8 @@
     "             <a herf=\"https://jupyter.org/documentation\"><h5><li>Jupyter Notebok Documentation</li></h5></a>\n",
     "             <a herf=\"https://docs.bokeh.org/en/latest/docs/reference/models/glyphs.html\"><h5><li>Bokeh charts Documentation</li></h5></a>\n",
     "             <a herf=\"https://pandas.pydata.org/docs/\"><h5><li>Pandas Documentation</li></h5></a> \n",
-    "             <a herf=\"https://matplotlib.org/3.2.1/contents.html\"><h5><li>Matplotlib charts Documentation</li></h5></a> \n",
+    "             <a herf=\"https://matplotlib.org/3.2.1/contents.html\"><h5><li>Matplotlib charts Documentation</li></h5></a>\n",
+    "             <a herf=\"https://www.w3schools.com/python/\"><h5><li>Python Tutorials</li></h5></a>\n",
     "         </td>\n",
     "         <td width=\"300px\"></td>\n",
     "    </tr>\n",
@@ -28,6 +29,22 @@
     "\n",
     "\n",
     "<br><br>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<hr>\n",
+    "<h2 style=\"color:#c4960c\">Overview</h2>\n",
+    "<p>In this example we explor a dataset and demonstarte the capability of both python and Jupyter Notbook/Lab.</p>\n",
+    "<p>Below are example of:</p>\n",
+    "<li>Tables</li>\n",
+    "<li>Pivot Tables</li>\n",
+    "<li>Bar Charts</li>\n",
+    "<li>Line Charts</li>\n",
+    "<li>Denisity Charts</li>\n",
+    "<li>Web/Bokeh Charts</li>"
    ]
   },
   {
@@ -75,24 +92,8 @@
    "metadata": {},
    "source": [
     "<hr>\n",
-    "<h2 style=\"color:#c4960c\">Overview</h2>\n",
-    "<p>In this example we explor a dataset and demonstarte the capability of both python and Jupyter Notbook/Lab.</p>\n",
-    "<p>Below are example of:</p>\n",
-    "<li>Tables</li>\n",
-    "<li>Pivot Tables</li>\n",
-    "<li>Bar Charts</li>\n",
-    "<li>Line Charts</li>\n",
-    "<li>Denisity Charts</li>\n",
-    "<li>Web/Bokeh Charts</li>\n",
-    "<hr>"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
     "<h2 style=\"color:#c4960c\">Arrests for Marijuana Possession</h2>\n",
-    "<i><p>Below is hot to import .csv files into a panda DataFrame</p></i>"
+    "<i><p>Below is how to import .csv files into a panda DataFrame</p></i>"
    ]
   },
   {
@@ -223,7 +224,7 @@
     "<br><br>\n",
     "<hr>\n",
     "<h3 style=\"color:#c4960c\"><i>Checks by Age and Sex</i></h3>\n",
-    "<p>Below are some examples of producing Pivot Tables and Charts</p>"
+    "<p>Below are some examples of creating Pivot Tables and Charts</p>"
    ]
   },
   {
@@ -290,7 +291,7 @@
    "source": [
     "<br><br>\n",
     "<hr>\n",
-    "<h3 style=\"color:#c4960c\"><i>Checks by Age, colour and Sex</i></h3>"
+    "<h3 style=\"color:#c4960c\"><i>Checks by Age, Colour and Sex</i></h3>"
    ]
   },
   {
@@ -459,7 +460,7 @@
    "source": [
     "<br><br>\n",
     "<hr>\n",
-    "<h3 style=\"color:#c4960c\"><i>Checks by Age, colour and Year</i></h3>"
+    "<h3 style=\"color:#c4960c\"><i>Checks by Age, Colour and Year</i></h3>"
    ]
   },
   {
@@ -826,7 +827,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 197,
+   "execution_count": 201,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -899,4 +900,3 @@
  "nbformat": 4,
  "nbformat_minor": 4
 }
-
