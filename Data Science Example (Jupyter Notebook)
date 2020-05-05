@@ -194,16 +194,16 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 91,
+   "execution_count": 98,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.axes._subplots.AxesSubplot at 0x7f14533b8c70>"
+       "<matplotlib.axes._subplots.AxesSubplot at 0x7f14532163d0>"
       ]
      },
-     "execution_count": 91,
+     "execution_count": 98,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -221,7 +221,8 @@
     }
    ],
    "source": [
-    "pivot.plot.bar(figsize=(20,10))"
+    "pivot.plot.bar(figsize=(20,10))\n",
+    "#plt.savefig('Arrests for Marijuana Possession.png')"
    ]
   },
   {
