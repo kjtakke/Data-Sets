@@ -9,7 +9,7 @@ df2 = pd.read_csv(r'http://bit.ly/2cLzoxH', header=0)
 
 # Practice
 #https://vincentarelbundock.github.io/Rdatasets/datasets.html
-
+#https://github.com/plotly/datasets
 
 df3 = pd.read_csv(r'https://www.quandl.com/api/v3/datasets/UMICH/SOC43.csv?api_key=HLPpJK9ng5A8MKxjawf1', header=0)
 
