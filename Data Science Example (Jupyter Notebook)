@@ -229,8 +229,8 @@
     }
    ],
    "source": [
-    "pivot.plot.bar(figsize=(20,10))\n",
-    "plt.savefig('Arrests for Marijuana Possession.png')"
+    "pt = pivot.plot.bar(figsize=(20,10))\n",
+    "#plt.savefig('Arrests for Marijuana Possession.png')"
    ]
   },
   {
